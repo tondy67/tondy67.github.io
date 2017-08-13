@@ -1,0 +1,246 @@
+/* */
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+.page {
+    width: 900px;
+    max-height: 600px;
+    margin: 10px;
+    border: 1px solid #fff;
+    background-color: #fefefe;
+    box-shadow: 0px 2px 7px #292929;
+    -moz-box-shadow: 0px 2px 7px #292929;
+    -webkit-box-shadow: 0px 2px 7px #292929;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.body,
+.header,
+.footer {
+    padding: 5px;
+}
+.body {
+    margin-top: 0;
+    min-height: 150px;
+    max-height: 388px;
+    overflow: auto;
+}
+.header {
+    height: 30px;
+    border-bottom: 1px solid #EEE;
+    background-color: #ffffff;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #ffffff url("/img/TheArtOfInfinity.900x40.jpg") no-repeat right top;
+}
+.footer {
+    height: 20px;
+    background-color: whiteSmoke;
+    border-top: 1px solid #DDD;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul .title{font-size:24px;}
+ul .label{width:140px;}
+ul .field{width:200px;}
+form ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+form li{float: left;margin:5px;}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.fa-sign-in {
+  background: #ccddff;
+  color: white;
+} 
+.fa-github {
+  background: #444444;
+  color: white;
+} 
+
+.icon {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.icon {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+.icon-forms {
+  background: #ccddff;
+  color: #3B5998;
+} 
+.icon-notes {
+  background: orange;
+  color: white;
+} 
+.icon-search {
+  background: #efefef;
+  color: #333333;
+} 
+.icon-contacts {
+  background: #08ee00;
+  color: #555555;
+} 
+/*
+a {
+  color: #001122;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #336699;
+}
+*/
+.dashboard {
+    background: #abd;
+    background: url("/img/bg.jpg")repeat-x right top;
+}
+.dashboard-logo {
+    height: 40px;
+    background: url("/img/TheArtOfInfinity.250x45.png") no-repeat center top;
+}
