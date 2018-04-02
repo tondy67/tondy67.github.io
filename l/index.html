@@ -24,18 +24,17 @@
 <a href="http://tondy.com/">Redirect to tondy.com</a>
 <script>
 // redirects
-const r = {
-'5rings':'https://docs.google.com/document/d/1wrID38FwhyTUfCopsK9VtJ4TqzgHmQCLLHhHON5R8Ug/pub',
-contact:'https://tondy67.github.io/about.html',
-abvos:'https://tondy67.github.io/abvos/',
-'виц':'https://tondy-bg.blogspot.com.es/2017/03/blog-post_6.html',
-'флоренция':'https://qz.com/694340/the-richest-families-in-florence-in-1427-are-still-the-richest-families-in-florence/',
-'яничари':'https://tondy-bg.blogspot.com.es/2014/09/blog-post_14.html'
-};
+const r = new Map();
+r.set('5rings','https://docs.google.com/document/d/1wrID38FwhyTUfCopsK9VtJ4TqzgHmQCLLHhHON5R8Ug/pub');
+r.set('contact','https://tondy67.github.io/about.html');
+r.set('abvos','https://tondy67.github.io/abvos/');
+r.set('виц','https://tondy-bg.blogspot.com.es/2017/03/blog-post_6.html');
+r.set('флоренция','https://qz.com/694340/the-richest-families-in-florence-in-1427-are-still-the-richest-families-in-florence/');
+r.set('яничари','https://tondy-bg.blogspot.com.es/2014/09/blog-post_14.html');
 const h = 'http://tondy.com/';
 // don't touch below
-const q = window.location.search.substring(1);
-const l = r[q] || h;
+const q = decodeURIComponent(window.location.search.substring(1));
+const l = r.get(q) || h;
 window.location.replace(l);
 //console.log(q,l);
 </script>
