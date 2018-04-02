@@ -1,0 +1,46 @@
+/* */
+body {
+ background-color: white;
+ color: black;
+ font-family: Verdana;
+}
+
+a{
+ color: #001122;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #336699;
+}
+
+.dashboard{
+ height: 40px;
+ background: url("/img/TheArtOfInfinity.250x45.png") no-repeat center top;
+}
+.popImg{
+ box-shadow: 0 0 15px #888;
+ margin: 5px 15px 5px 5px;
+ float:left;
+ width:30%;
+}
+.upImg{
+ max-height:512px; 
+}
+.box{
+ margin:5px;
+}
+ul.box{
+ list-style-type: none;
+}
+.clear{
+ clear:both;
+}
+@media screen and (max-width: 480px) {
+.popImg{
+ box-shadow: 0 0 15px #888;
+ margin: 5px 15px 15px 5px;
+ float:left;
+ width:90%;
+}
+}
