@@ -12,7 +12,7 @@
  <meta charset="utf-8">
  <link rel="icon" type="image/png" href="/favicon.png" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <meta http-equiv="refresh" content="3; url=http://tondy.com/"> -->
+ <meta http-equiv="refresh" content="3; url=http://tondy.com/"> 
  <title>Url shortener</title>
 </head>
 <body>
@@ -36,8 +36,8 @@ const h = 'http://tondy.com/';
 // don't touch below
 const q = window.location.search.substring(1);
 const l = r[q] || h;
-//window.location.replace(l);
-console.log(q,l);
+window.location.replace(l);
+//console.log(q,l);
 </script>
 </body>
 </html>
