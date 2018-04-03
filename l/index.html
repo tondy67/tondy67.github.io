@@ -36,7 +36,7 @@ const h = 'os-abv.1d35.starter-us-east-1.openshiftapps.com';//'http://tondy.com/
 // don't touch below
 const q = decodeURIComponent(window.location.search.substring(1));
 const l = r.get(q) || h;
-window.location.replace(l);
+if (l) window.location.replace(l);
 //console.log(q,l);
 </script>
 </body>
