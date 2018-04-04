@@ -9,5 +9,5 @@ window.onload = () => {
 	box.innerHTML = '<pre>' + s + '</pre>'; */
 	document.title = m.name;
 	const body = document.querySelector('#body');
-	body.innerHTML = m.body;
+//	body.innerHTML = m.body;
 };
