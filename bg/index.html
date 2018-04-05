@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116654636-2"></script>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-116654636-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -10,7 +10,7 @@
   gtag('config', 'UA-116654636-2');
 </script>
  <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
  <link href="style.css" rel="stylesheet" type="text/css" media="all">
  <script src="./afs.js" ></script>
  <title>afs</title>
@@ -29,7 +29,7 @@
   if (m !== null){
 	  for(let f of m.files){
 		  if (!f) continue;
-		s += '<div class="item"><a href="'+f.name+'/index.html"><img src="'+f.name+'/logo.png" width="80" alt="logo.png" title="'+f.name+'" onerror="this.src=\'no.png\'"/><br>'+f.name+'</a></div>';
+		s += '<div class="item"><a href="'+f.name+'/index.html"><img src="'+f.name+'/logo.png" width="80" alt="logo.png" title="'+f.name+'" onerror="this.src=\'no.png\'"/><br />'+f.name+'</a></div>';
 //		 console.log();
 	  }
    
