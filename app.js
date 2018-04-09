@@ -38,12 +38,12 @@ const closeNav = ()=> {
 const init = () => {
 	let el = $sel('#header');
 	if (el){
-		el.innerHTML = `<a href="#" id="opennav"><i class="fas fa-bars"></i></a><a href="/">The Art of Infinity</a>`;
+		el.innerHTML = `<a href="javascript:void(0)" id="opennav"><i class="fas fa-bars"></i></a><a href="/">The Art of Infinity</a>`;
 		el = $sel('#sidenav');
 		if (!el){
 			el = $mk('div');
 			el.id = 'sidenav';
-			el.innerHTML = `<a href="#" id="closenav">&#215;</a>
+			el.innerHTML = `<a href="javascript:void(0)" id="closenav">&#215;</a>
 <div id="search"><form action="https://www.google.com/search">
  <input name="sitesearch" type="hidden" value="tondy67.github.io" />      
  <input type="text" placeholder="search.." name="q" /><button type="submit"><i class="fa fa-search"></i></button>&#160;</form>
